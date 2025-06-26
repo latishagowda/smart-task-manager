@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/smart-task-manager/styles/globals.css"],"sourcesContent":["/* styles/globals.css */\r\nbody {\r\n  margin: 0;\r\n  font-family: Arial, sans-serif;\r\n  background: #f5f5f5;\r\n}\r\n"],"names":[],"mappings":"AACA","debugId":null}}]
+}

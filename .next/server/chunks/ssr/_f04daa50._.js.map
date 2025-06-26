@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/smart-task-manager/app/layout.tsx"],"sourcesContent":["// app/layout.tsx\nimport '../styles/globals.css'; // ✅ styles must be outside /app\nimport { ReactNode } from 'react';\nimport { AuthProvider } from '../context/AuthContext'; // ✅ relative path\n\nexport const metadata = {\n  title: 'Smart Task Manager',\n  description: 'Organize tasks smartly',\n};\n\nexport default function RootLayout({ children }: { children: ReactNode }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <AuthProvider>{children}</AuthProvider>\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":"AAAA,iBAAiB;;;;;;;;;;;;;;AAKV,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAA2B;IACtE,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBACC,cAAA,8OAAC;0BAAc;;;;;;;;;;;;;;;;AAIvB","debugId":null}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///C:/smart-task-manager/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}

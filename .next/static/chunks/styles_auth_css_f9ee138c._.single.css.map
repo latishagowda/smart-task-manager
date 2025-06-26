@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/auth.css"],"sourcesContent":["/* src/styles/auth.css */\r\n.auth-container {\r\n  max-width: 400px;\r\n  margin: 80px auto;\r\n  padding: 2rem;\r\n  border: 1px solid #ddd;\r\n  border-radius: 8px;\r\n  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);\r\n  font-family: sans-serif;\r\n}\r\n\r\n.auth-container h2 {\r\n  text-align: center;\r\n  margin-bottom: 1rem;\r\n}\r\n\r\n.auth-container form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 12px;\r\n}\r\n\r\n.auth-container input {\r\n  padding: 0.5rem;\r\n  font-size: 1rem;\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n}\r\n\r\n.auth-container button {\r\n  padding: 0.6rem;\r\n  background-color: #0070f3;\r\n  color: white;\r\n  font-weight: bold;\r\n  border: none;\r\n  border-radius: 4px;\r\n  cursor: pointer;\r\n}\r\n\r\n.google-btn {\r\n  margin-top: 10px;\r\n  background-color: #db4437;\r\n}\r\n\r\n.error {\r\n  margin-top: 10px;\r\n  color: red;\r\n  text-align: center;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;;;;AAUA;;;;;AAKA;;;;;;AAMA;;;;;;;AAOA;;;;;;;;;;AAUA;;;;;AAKA"}}]
+}
